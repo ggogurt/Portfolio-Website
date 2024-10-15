@@ -16,8 +16,8 @@ h1{
     font-family: helvetica, sans-serif;
     font-size: 75px;
     font-weight: bold;
-    padding:50px;
-    padding-bottom: 15px;
+    padding:5px;
+    padding-bottom: 5px;
 }
 
 h2{
@@ -26,22 +26,37 @@ h2{
     font-family: helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
+    padding-bottom: 70px;
 }
 
 h3{
-    text-align: center;
+    text-align:justify;
     color: white;
     font-family: helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
-    padding-left: 50px;
-    margin: 25px;
+    line-height: 30px;
+    margin-left:300px;
+    margin-right:300px;
+}
+
+h4{
+    text-align:justify;
+    color: white;
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-left:300px;
+    margin-right:300px;
+    margin-top: 225px;
 }
 
 body{  
-
-    background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-1200-80.jpg");
-
+    max-width:70%;
+    margin-left:15px;
+    background-image: url("https://news.mit.edu/sites/default/files/download/202306/MIT-3q-FirstLight-01-press.jpg");
+    cursor: url('https://img1.picmix.com/output/stamp/thumb/5/1/0/7/437015_67c9a.gif'), auto;
 
     
     /*
@@ -79,10 +94,9 @@ img{
     padding: 15px;
 }
 
-
 image{
-    max-width: 2000px;
-    max-height: 2000px;
+    width: 350px;
+    height: 350px;
     object-position: center;
 }
 
@@ -105,4 +119,21 @@ button {
     position: absolute;
   }
 
+a{
+    text-align: center;
+    color:rgb(2, 255, 200);
+    font-size:30px;
+}
+
 button {border-radius: 100%;}
+
+.container3{
+    background-image: url('https://godotshaders.com/wp-content/uploads/2021/01/Screen-Shot-2023-05-03-at-12.12.37-PM.png');
+    width: 100%;
+    height: 100%;
+    background-repeat:repeat;
+    background-size: 100px 100px;
+    position: absolute;
+    margin-top:380px;
+}
+
